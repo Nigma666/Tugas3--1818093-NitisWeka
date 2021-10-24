@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_welcome"
+            android:icon="@drawable/ic_pumpkin_welcome"
+            android:title="Welcome" />
+        <item android:id="@+id/nav_dota"
+            android:icon="@drawable/ic__pumpkin1"
+            android:title="Dota" />
+        <item android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic__1836_peace_love_halloween"
+            android:title="About Us" />
+    </group>
+
+</menu>
